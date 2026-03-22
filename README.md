@@ -16,15 +16,21 @@ Analizador de bajo nivel para interceptar vectores de ataque en assets estático
 * **Payload Discovery:** Rastreo de XSS inyectado en metadatos EXIF y scripts maliciosos en vectores SVG.
 * **Active Defense:** Diseñado para ejecutarse *on-the-fly* mediante telemetría asíncrona o crawlers de seguridad.
 
+#cybersecurity #active-defense #forensics #binary-analysis #xss-prevention #zero-trust
+
 #### 2. E2E Screen Reader Simulator
 Motor de simulación heurística del árbol de accesibilidad (A11y Tree).
 * **State Tracking:** Monitorización en tiempo real de cambios en `aria-checked`, `aria-expanded` y regiones vivas.
 * **Accessible Name Computation:** Algoritmo de cálculo para verificar el nombre accesible real que perciben los productos de apoyo (Screen Readers).
 
+#accessibility #a11y #screen-reader-simulator #aria-compliance #inclusive-design
+
 #### 3. CSI Layout & Focus Interceptor
 Herramienta de diagnóstico para la resolución de problemas complejos de interacción.
 * **Focus Interceptor:** Rastreo de origen de solicitudes de foco (Call Stack) para detectar secuestros de foco o bucles infinitos.
 * **Obstruction Analysis:** Identificación de elementos que bloquean el canal visual o de interacción en coordenadas específicas.
+
+#vanilla-js #qa-automation #resilience-engineering #dom-diagnostics #software-quality
 
 ---
 
@@ -32,6 +38,8 @@ Herramienta de diagnóstico para la resolución de problemas complejos de intera
 Esta suite ha sido conceptualizada y desarrollada utilizando **modelos de IA avanzados** para acelerar la creación de lógica determinista de alta fiabilidad. 
 
 El uso de IA como multiplicador de productividad permite mantener un ciclo de desarrollo ágil mientras se cubren brechas de seguridad y accesibilidad que suelen quedar fuera del alcance del QA tradicional.
+
+#ai-leveraged #smart-diagnostics
 
 ---
 
