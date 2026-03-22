@@ -1,37 +1,38 @@
-# 🛡️ Vortex Resilience & Security Suite (Proprietary Tooling)
+# 🛡️ Vortex Resilience & Security Suite
 
-Este repositorio actúa como **documentación pública y escaparate técnico** de una suite de herramientas propietaria diseñada para la auditoría avanzada de ciberseguridad y accesibilidad.
+**[PROPRIETARY TECH STACK - ARCHITECTURE OVERVIEW]**
 
-> ⚠️ **Nota:** El código fuente de estos módulos es **propiedad intelectual privada**. Este espacio describe las capacidades, la metodología y los vectores de ataque que cubre la suite para su evaluación en procesos de auditoría y consultoría.
+Este repositorio contiene la documentación técnica y el desglose de capacidades de una suite de herramientas de **defensa activa y diagnóstico forense** desarrollada en Vanilla JS. 
 
----
-
-## 🚀 Capacidades de Defensa Activa
-
-### 🔍 Visual Forensics (MIME & Binary Audit)
-Módulo diseñado para interceptar ataques de polimorfismo y confusión de tipos en assets estáticos.
-- **Análisis de Magic Numbers:** Verificación de firmas binarias reales (JPEG, PNG, WEBP, TIFF, etc.) ignorando la extensión de archivo.
-- **Payload Inspection:** Escaneo de scripts maliciosos y vectores XSS inyectados en metadatos EXIF y fuentes SVG.
-- **Active Defense:** Integración "on-the-fly" en entornos de producción para auditoría en tiempo real sin impacto en el rendimiento.
-
-### 🎧 E2E Screen Reader Simulator
-Simulación heurística del árbol de accesibilidad (A11y Tree) para diagnóstico preventivo.
-- **State Monitoring:** Rastreo dinámico de cambios en `aria-checked`, `aria-expanded` y regiones vivas.
-- **Accessible Name Computation:** Algoritmo avanzado para verificar el cálculo del nombre accesible en elementos complejos.
-
-### 🕵️‍♂️ CSI Layout & Focus Interceptor
-Herramienta forense para el diagnóstico de obstrucciones visuales y secuestro de foco.
-- **Focus Method Interceptor:** Rastreo de origen de solicitudes de foco mediante telemetría asíncrona.
-- **Obstruction Detection:** Identificación de elementos que bloquean la interacción en coordenadas específicas del viewport.
+> **Aviso de Privacidad:** El código fuente de estos módulos es propiedad intelectual privada (IP) de VortexSpira. Este espacio sirve como evidencia de capacidad técnica y catálogo de vectores de seguridad cubiertos para procesos de auditoría y consultoría Staff/Architect.
 
 ---
 
-## 🧠 Metodología: Ingeniería Apalancada en IA
-Esta suite ha sido desarrollada bajo un enfoque de **Ingeniería Aumentada**, utilizando modelos de IA de última generación para acelerar el desarrollo de lógica determinista y robusta. 
+### 🚀 Capacidades del Ecosistema
 
-El resultado es un conjunto de herramientas de **defensa activa** que transforma el QA tradicional en una disciplina de resiliencia estructural.
+#### 1. Visual Forensics (Binary & MIME Audit)
+Analizador de bajo nivel para interceptar vectores de ataque en assets estáticos.
+* **Validación Determinista:** Identificación de archivos mediante *Magic Numbers* (firmas binarias), eliminando la dependencia de extensiones de archivo o cabeceras de servidor.
+* **Payload Discovery:** Rastreo de XSS inyectado en metadatos EXIF y scripts maliciosos en vectores SVG.
+* **Active Defense:** Diseñado para ejecutarse *on-the-fly* mediante telemetría asíncrona o crawlers de seguridad.
+
+#### 2. E2E Screen Reader Simulator
+Motor de simulación heurística del árbol de accesibilidad (A11y Tree).
+* **State Tracking:** Monitorización en tiempo real de cambios en `aria-checked`, `aria-expanded` y regiones vivas.
+* **Accessible Name Computation:** Algoritmo de cálculo para verificar el nombre accesible real que perciben los productos de apoyo (Screen Readers).
+
+#### 3. CSI Layout & Focus Interceptor
+Herramienta de diagnóstico para la resolución de problemas complejos de interacción.
+* **Focus Interceptor:** Rastreo de origen de solicitudes de foco (Call Stack) para detectar secuestros de foco o bucles infinitos.
+* **Obstruction Analysis:** Identificación de elementos que bloquean el canal visual o de interacción en coordenadas específicas.
 
 ---
 
-## ⚖️ Contacto y Licencia
-Tecnología desarrollada por **Diego González Fernández (VortexSpira®)**. Para consultas sobre licencias de uso o auditorías técnicas, contactar vía LinkedIn.
+### 🧠 Ingeniería Apalancada en IA (AI-Leveraged)
+Esta suite ha sido conceptualizada y desarrollada utilizando **modelos de IA avanzados** para acelerar la creación de lógica determinista de alta fiabilidad. 
+
+El uso de IA como multiplicador de productividad permite mantener un ciclo de desarrollo ágil mientras se cubren brechas de seguridad y accesibilidad que suelen quedar fuera del alcance del QA tradicional.
+
+---
+
+© 2026 Diego González Fernández. Todos los derechos reservados.
