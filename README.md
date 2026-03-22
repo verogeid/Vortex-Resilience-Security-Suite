@@ -34,4 +34,4 @@ El resultado es un conjunto de herramientas de **defensa activa** que transforma
 ---
 
 ## ⚖️ Contacto y Licencia
-Tecnología desarrollada por **Diego González Fernández - VortexSpira**. Para consultas sobre licencias de uso o auditorías técnicas, contactar vía LinkedIn.
+Tecnología desarrollada por **Diego González Fernández (VortexSpira®)**. Para consultas sobre licencias de uso o auditorías técnicas, contactar vía LinkedIn.
