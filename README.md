@@ -4,7 +4,7 @@
 
 Este repositorio contiene la documentación técnica y el desglose de capacidades de una suite de herramientas de **defensa activa y diagnóstico forense** desarrollada en Vanilla JS. 
 
-> **Aviso de Privacidad:** El código fuente de estos módulos es propiedad intelectual privada (IP) de VortexSpira. Este espacio sirve como evidencia de capacidad técnica y catálogo de vectores de seguridad cubiertos para procesos de auditoría y consultoría Staff/Architect.
+> **Aviso de Privacidad:** El código fuente de estos módulos es propiedad intelectual privada (IP) de Diego González Fernández. Este espacio sirve como evidencia de capacidad técnica y catálogo de vectores de seguridad cubiertos para procesos de auditoría y consultoría Staff/Architect.
 
 ---
 
