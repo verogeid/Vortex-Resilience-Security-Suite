@@ -16,12 +16,16 @@ Analizador de bajo nivel para interceptar vectores de ataque en assets estático
 * **Payload Discovery:** Rastreo de XSS inyectado en metadatos EXIF y scripts maliciosos en vectores SVG.
 * **Active Defense:** Diseñado para ejecutarse *on-the-fly* mediante telemetría asíncrona o crawlers de seguridad.
 
+![Visual Forensics Audit](images/imageSecurity.png)
+
 #cybersecurity #active-defense #forensics #binary-analysis #xss-prevention #zero-trust
 
 #### 2. E2E Screen Reader Simulator
 Motor de simulación heurística del árbol de accesibilidad (A11y Tree).
 * **State Tracking:** Monitorización en tiempo real de cambios en `aria-checked`, `aria-expanded` y regiones vivas.
 * **Accessible Name Computation:** Algoritmo de cálculo para verificar el nombre accesible real que perciben los productos de apoyo (Screen Readers).
+
+![Screen Reader Simulator](images/screenReaderSim.png)
 
 #accessibility #a11y #screen-reader-simulator #aria-compliance #inclusive-design
 
